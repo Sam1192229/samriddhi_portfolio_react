@@ -9,7 +9,7 @@ function Type() {
         strings: [
           "MERN Stack Developer",
           "Competitive Coder",
-          "Content Creator",
+          "Writer",
         ],
         autoStart: true,
         loop: true,
