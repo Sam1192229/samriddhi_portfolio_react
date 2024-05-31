@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pdf from "./resume.pdf"; // Ensure the path is correct
+import pdf from "./Samriddhi_Resume _Mishra.pdf"; // Ensure the path is correct
 
 const Resume = () => {
   return (
