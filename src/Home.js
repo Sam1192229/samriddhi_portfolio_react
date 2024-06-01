@@ -40,10 +40,9 @@ const Home = () => {
     
     <div className='bg-gray-800'>
     <div className='flex flex-col gap-32'>
-
-      <div className="bg-gray-800 flex md:flex-row gap-48 justify-center mt-24">
-        <img src={logo} alt="hello" className='h-3/5 w-2/5 ml-16  border-teal-700 border-2  animate-fall3 rounded-xl' />
-        <div className='flex flex-col gap-5 '>
+    <div className="bg-gray-800 flex flex-col lg:flex-row gap-12 lg:gap-48 justify-center mt-24 items-center lg:items-start">
+        <img src={logo} alt="hello" className='w-3/5 lg:w-2/5 ml-16  border-teal-700 border-2  animate-fall3 rounded-xl' />
+        <div className='flex flex-col gap-5 text-center lg:text-left items-center lg:items-start '>
           <Particle id="tsparticles" />
           <div className='flex flex-col gap-1'>
             <div className='text-teal-500 text-4xl font-bold font-mono animate-fall '>
@@ -57,7 +56,7 @@ Hey
           <p className='text-gray-300 font-bold text-2xl text-nowrap '>
             <Type />
           </p>
-          <p className='text-balance text-gray-300  indent-6 mr-32'>I am a final-year B.Tech Computer Science student at IIEST Shibpur, My projects and experience reflects my passion for coding and developing something unique. I am into Web2 Full Stack Development and Competitive Coding. Take a look—I promise you'll find something impressive.</p>
+          <p className='text-balance text-gray-300 text-base lg:text-lg leading-relaxed lg:leading-loose mx-6 lg:mx-0  indent-6 mr-32'>I am a final-year B.Tech Computer Science student at IIEST Shibpur, My projects and experience reflects my passion for coding and developing something unique. I am into Web2 Full Stack Development and Competitive Coding. Take a look—I promise you'll find something impressive.</p>
           <div className='flex md:flex-row gap-8'>
             <Link to='/resume'>
               <button className='border-2 border-gray-500 p-2 rounded-lg text-gray-200 transition ease-in-out delay-150 bg-gray-800 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500 duration-300 hover:text-white'>Resume</button>
