@@ -1,18 +1,11 @@
 import React from "react";
-//import Lottie from "lottie-react";
-//import animationData from './json/hello.json'; // Importing the default export
-//import { CodeIcon } from "@heroicons/react/solid";
-// import { Link } from "react-router-dom";
-import {projects} from './Data'
+import { projects } from './Data';
+
 const Projects = () => {
   return (
-    <>
-     
-  
-      <section id="projects" className="text-gray-400 bg-gray-900 body-font min-h-screen ">
+    <section id="projects" className="text-gray-400 bg-gray-900 body-font min-h-screen">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've <span className="text-teal-500">B</span>uilt
           </h1>
@@ -27,7 +20,10 @@ const Projects = () => {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-full p-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -49,7 +45,6 @@ const Projects = () => {
         </div>
       </div>
     </section>
-    </>
   );
 };
 
